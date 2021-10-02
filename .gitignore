@@ -15,5 +15,8 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# project files
+data.json
+
 # ide
 .idea
