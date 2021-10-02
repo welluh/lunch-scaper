@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Alice Italian",
+        "url": "https://www.aliceitalian.fi/lounas",
+        "data": [
+            {
+                "title": "Maanantai 4.10",
+                "content": [
+                    "SOUP & SALAD BUFFET 10,20€",
+                    "Kermainen kantarellikeitto (Ve,G)",
+                    "Creamy chanterelle soup",
+                    "​",
+                    " ",
+                    "THE BUFFET 10,90€",
+                    "Jättilihapullia, timjamiperunaa & Dijon-kermakastiketta (L)",
+                    "Meatballs, thyme potatoes & Dijon cream sauce",
+                    "​",
+                    " ",
+                    "Espanjalainen tortilla (L,G)",
+                    "Spanish tortilla"
+                ]
+            },
+            {
+                "title": "Tiistai 5.10",
+                "content": [
+                    "SOUP & SALAD BUFFET 10,20€",
+                    "Chili-bataattikeitto (Ve,G)",
+                    "Chili & sweet potato soup",
+                    "​",
+                    " ",
+                    "THE BUFFET 10,90€",
+                    "Louisianan kanaa, jambalayaa & lime-jogurttikastike (L,G)",
+                    "Louisiana chicken, jambalaya, lime yogurt sauce",
+                    "​",
+                    " ",
+                    "Kasvisgumboa, jambalayaa (Ve,G) & lime-jogurttikastike (L,G)",
+                    "Vegetable gumbo, jambalaya & lime yogurt sauce",
+                    "​",
+                    " ",
+                    "Dessert: \"Banoffee\"-rahka (L,G)"
+                ]
+            },
+            {
+                "title": "Keskiviikko 6.10",
+                "content": [
+                    "SOUP & SALAD BUFFET 10,20€",
+                    "Koskenlaskijan savuporokeitto (L,G)",
+                    "Smoked reindeer soup with Koskenlaskija cheese",
+                    "​",
+                    " ",
+                    "THE BUFFET 10,90€",
+                    "Pork belly, makean-tulinen karamellikastike & jasmiiniriisiä",
+                    "(M,G, sis. kalakastike)",
+                    "Pork belly, sweet-fiery caramel sauce & jasmine rice",
+                    "​",
+                    " ",
+                    "Tofu-adoboa & jasmiiniriisiä (Ve,G)",
+                    "Tofu adobo & jasmine rice"
+                ]
+            },
+            {
+                "title": "Torstai 7.10",
+                "content": [
+                    "SOUP & SALAD BUFFET 10,20€",
+                    "Tuorehernekeitto (M,G)",
+                    "Fresh pea soup",
+                    "​",
+                    " ",
+                    "THE BUFFET 10,90€",
+                    "Härkää punaviinikastikkeessa & kermaperunoita (L,G)",
+                    "Beef in red wine sauce & cream potatoes",
+                    "​",
+                    " ",
+                    "Vegaaninen soijabolognese (Ve)",
+                    "Vegan soy bolognese",
+                    "​",
+                    " ",
+                    "Jälkkäripäivä: Pannaria, hilloa & kermavaahtoa - Pancakes, jam & whipped cream"
+                ]
+            },
+            {
+                "title": "Perjantai 8.10",
+                "content": [
+                    "SOUP & SALAD BUFFET 10,20€",
+                    "Paahdettua kikhernekeittoa (Ve,G)",
+                    "Roasted chickpea soup",
+                    "​",
+                    " ",
+                    "THE BUFFET 10,90€",
+                    "Lähi-Itä Buffa!",
+                    "Kebabia tulisessa tomaattikastikkeessa (M,G), pitaleipää & riisiä (M,Ve,G)",
+                    "Kasviskoftaa tulisessa tomaattikastikkeessa (Ve,G), pitaleipää & riisiä (M,Ve,G)",
+                    "Runsas Lähi-Idän salaattibuffet",
+                    "​",
+                    "Kebab in hot tomato sauce, pita bread & rice",
+                    "Vegetable kofta in hot tomato sauce, pita bread & rice",
+                    "Middle Eastern salad buffet"
+                ]
+            }
+        ]
+    }
+]
