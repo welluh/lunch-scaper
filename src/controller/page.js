@@ -1,5 +1,6 @@
 const fs = require('fs');
 const scrapeAliceItalian = require('../scraper/alice-italian');
+const scrapeWeeruska = require('../scraper/weeruska');
 
 async function scrape(browserInstance) {
     let browser;
@@ -7,12 +8,18 @@ async function scrape(browserInstance) {
     try {
         browser = await browserInstance;
 
-        let scrapedData = [];
+        const scrapedData = [];
         
         scrapedData.push({
             name: 'Alice Italian',
             url: 'https://www.aliceitalian.fi/lounas',
             data: await scrapeAliceItalian(browser, 'https://www.aliceitalian.fi/lounas'),
+        });
+
+        scrapedData.push({
+            name: 'Weeruska',
+            url: 'https://weeruska.com/lounaslista',
+            data: await scrapeWeeruska(browser, 'https://weeruska.com/lounaslista')
         });
 
         await browser.close();
