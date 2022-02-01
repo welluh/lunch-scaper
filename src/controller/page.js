@@ -1,6 +1,5 @@
 const fs = require('fs');
-const scrapeAliceItalian = require('../scraper/alice-italian');
-const scrapeWeeruska = require('../scraper/weeruska');
+const scrapeFromLounaatInfo = require('../scraper/lounaat-info');
 
 async function scrape(browserInstance) {
     let browser;
@@ -8,19 +7,15 @@ async function scrape(browserInstance) {
     try {
         browser = await browserInstance;
 
-        const scrapedData = [];
-        
-        scrapedData.push({
-            name: 'Alice Italian',
-            url: 'https://www.aliceitalian.fi/lounas',
-            data: await scrapeAliceItalian(browser, 'https://www.aliceitalian.fi/lounas'),
-        });
+        const urls = [
+            'https://www.lounaat.info/lounas/alice-italian/helsinki',
+            'https://www.lounaat.info/lounas/on-the-rocks-kallio/helsinki',
+            'https://www.lounaat.info/lounas/weeruska/helsinki',
+        ];
 
-        scrapedData.push({
-            name: 'Weeruska',
-            url: 'https://weeruska.com/lounaslista',
-            data: await scrapeWeeruska(browser, 'https://weeruska.com/lounaslista')
-        });
+        const scrapedData = await Promise.all(
+            urls.map(url => scrapeFromLounaatInfo(browser, url)),
+        );
 
         await browser.close();
 
